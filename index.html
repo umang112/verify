@@ -7,7 +7,7 @@
   <br>
   <br>
   <img src="images/username1.JPG" width="356" height="119" align="left" ><img src="images/password.JPG" width="356" height="119" align="right" ><br><br>
-  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br>
 <form id="form1" action="/action_page.php">
 <p style="color:#0F0">USERNAME: </p><input type="text" name="fname"><br>
 <p style="color:#0F0">PASSWORD: </p><input type="password" name="lname"><br><br>
@@ -28,6 +28,7 @@ function myFunction()
 	  str = "Access Denied";
 
 	}
+	document.getElementById("demo").style.color = "red";
 	document.getElementById("demo").innerHTML = str;
 }
 </script>
